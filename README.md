@@ -15,15 +15,15 @@ Ziel ist es, die gemischten Messpunkte wieder in zwei Gruppen zu trennen und dar
 3. Vermischen der Messpunkte  
 4. Erste Gruppierung der Punkte  
 5. Quadratischer Fit für beide Gruppen  
-6. Iterative Neuzuordnung der Punkte anhand ihres Abstands zu den gefitteten Parabeln  
+6. mehrfache Neuzuordnung der Punkte anhand ihres Abstands zu den gefitteten Parabeln  
 7. Wiederholung des Verfahrens zur Verbesserung der Rekonstruktion  
 
 ## Beobachtungen
 
 - Eine reine Trennung der Punkte in x-Richtung ist nicht ausreichend.
-- Die iterative Neuzuordnung anhand des Abstands zur Parabel liefert deutlich bessere Ergebnisse.
+- Die mehrfache Neuzuordnung anhand des Abstands zur Parabel liefert deutlich bessere Ergebnisse.
 - Zu starkes Rauschen verschlechtert die Rekonstruktion sichtbar.
-- Zu viele Iterationen können kontraproduktiv sein.
+- Zu viele Zuordnungen können kontraproduktiv sein.
 - In den aktuellen Versuchen haben sich etwa 15 Durchläufe als sinnvoll erwiesen.
 
 ## Ziel des Projekts
@@ -31,7 +31,6 @@ Ziel ist es, die gemischten Messpunkte wieder in zwei Gruppen zu trennen und dar
 Das Projekt dient als Einstieg in die Themen:
 - Simulation von Trajektorien
 - Clustering verrauschter Daten
-- iterative Modellanpassung
 - Rekonstruktion von Flugbahnen
 
 ## Ausblick
