@@ -36,3 +36,7 @@ Das Projekt dient als Einstieg in die Themen:
 ## Ausblick
 
 Als nächster Schritt soll das Verfahren auf weitere Bewegungsmodelle wie Vogel- oder Drohnenflug erweitert werden, um später auch eine Klassifikation verschiedener Flugobjekte zu ermöglichen.
+
+## Abbruch berechnen
+
+Als kleines extra wurde der range loop so modifiziert, dass statt einer konkreten Angabe, wie Abbruch nach 5 Durchläufe [range(5)], erfolgt der Abbruch automatisch, sobald die Veränderung der Gruppenzugehörigkeit der Messwerte unter einem Prozent liegt.
